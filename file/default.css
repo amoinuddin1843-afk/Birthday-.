@@ -84,34 +84,3 @@ a {
   font-family: monospace;
 
 }
-@media screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    #main {
-        width: 100% !important;
-    }
-
-    canvas {
-        width: 100% !important;
-        height: auto !important;
-    }
-}
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-}
-
-#main {
-    width: 100% !important;
-    display: block !important;
-}
-
-canvas {
-    display: block;
-    max-width: 100%;
-    height: auto !important;
-}
